@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="vKnapsack">
+    <property name="width-request">1920</property>
+    <property name="height-request">1080</property>
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed" id="fixed2">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkImage">
+            <property name="width-request">1980</property>
+            <property name="height-request">1080</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="pixbuf">fondo3.jpg</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox" id="boxMatrizObjetos">
+            <property name="width-request">600</property>
+            <property name="height-request">200</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkBox" id="boxMatrizO1">
+                <property name="name">600</property>
+                <property name="width-request">600</property>
+                <property name="height-request">200</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkBox" id="boxMatrizO2">
+                    <property name="width-request">600</property>
+                    <property name="height-request">200</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="baseline-position">top</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">1200</property>
+            <property name="y">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox" id="boxMatrizPrincipal">
+            <property name="width-request">600</property>
+            <property name="height-request">200</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkBox" id="boxMatriz1">
+                <property name="width-request">600</property>
+                <property name="height-request">200</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkBox" id="boxMatriz2">
+                    <property name="width-request">600</property>
+                    <property name="height-request">200</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">-1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">168</property>
+            <property name="y">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox" id="BoxBotones">
+            <property name="width-request">1240</property>
+            <property name="height-request">60</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkButton" id="botonCalAlgoritmo">
+                <property name="label" translatable="yes">Calcular Algoritmo</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="botonGuardarArchivo">
+                <property name="label" translatable="yes">Guardar en Archivo</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFileChooserButton" id="botonAbrirArchivo">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="create-folders">False</property>
+                <property name="title" translatable="yes">Seleccione el archivo que contiene la matriz</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="botonSalir">
+                <property name="label" translatable="yes">Salir</property>
+                <property name="width-request">150</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">3</property>
+              </packing>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+          </object>
+          <packing>
+            <property name="x">650</property>
+            <property name="y">900</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox" id="boxElegirAlgoritmo">
+            <property name="width-request">400</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkComboBoxText" id="boxPesos">
+                <property name="width-request">100</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="active">0</property>
+                <items>
+                  <item id="peso1" translatable="yes">1</item>
+                  <item id="peso2" translatable="yes">2</item>
+                  <item id="peso3" translatable="yes">3</item>
+                  <item id="peso4" translatable="yes">4</item>
+                  <item id="peso5" translatable="yes">5</item>
+                  <item id="peso6" translatable="yes">6</item>
+                  <item id="peso7" translatable="yes">7</item>
+                  <item id="peso8" translatable="yes">8</item>
+                  <item id="peso9" translatable="yes">9</item>
+                  <item id="peso10" translatable="yes">10</item>
+                  <item translatable="yes">11</item>
+                  <item translatable="yes">12</item>
+                  <item translatable="yes">13</item>
+                  <item translatable="yes">14</item>
+                  <item translatable="yes">15</item>
+                  <item translatable="yes">16</item>
+                  <item translatable="yes">17</item>
+                  <item translatable="yes">18</item>
+                  <item translatable="yes">18</item>
+                  <item translatable="yes">19</item>
+                  <item translatable="yes">20</item>
+                  <item translatable="yes">21</item>
+                  <item translatable="yes">22</item>
+                  <item translatable="yes">23</item>
+                  <item translatable="yes">24</item>
+                  <item translatable="yes">25</item>
+                  <item translatable="yes">26</item>
+                  <item translatable="yes">27</item>
+                  <item translatable="yes">28</item>
+                  <item translatable="yes">29</item>
+                  <item translatable="yes">30</item>
+                </items>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkComboBoxText" id="boxCantidadObjetos">
+                <property name="width-request">100</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="active">0</property>
+                <items>
+                  <item id="1" translatable="yes">1</item>
+                  <item id="2" translatable="yes">2</item>
+                  <item id="3" translatable="yes">3</item>
+                  <item id="4" translatable="yes">4</item>
+                  <item id="5" translatable="yes">5</item>
+                  <item id="6" translatable="yes">6</item>
+                  <item id="7" translatable="yes">7</item>
+                  <item id="8" translatable="yes">8</item>
+                  <item id="9" translatable="yes">9</item>
+                  <item id="10" translatable="yes">10</item>
+                  <item id="11" translatable="yes">11</item>
+                  <item id="12" translatable="yes">12</item>
+                  <item id="13" translatable="yes">13</item>
+                  <item id="14" translatable="yes">14</item>
+                  <item id="15" translatable="yes">15</item>
+                  <item id="16" translatable="yes">16</item>
+                  <item id="17" translatable="yes">17</item>
+                  <item id="18" translatable="yes">18</item>
+                  <item id="19" translatable="yes">19</item>
+                  <item translatable="yes">20</item>
+                </items>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="botonMatriz">
+                <property name="label" translatable="yes">Generar</property>
+                <property name="width-request">200</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="relief">half</property>
+                <property name="image-position">top</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">790</property>
+            <property name="y">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="labelTituloPeso">
+            <property name="width-request">100</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Peso</property>
+          </object>
+          <packing>
+            <property name="x">790</property>
+            <property name="y">81</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="labelTituloCantidadO">
+            <property name="width-request">100</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Cantidad Objetos</property>
+          </object>
+          <packing>
+            <property name="x">900</property>
+            <property name="y">81</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="labelProblemaMatematico">
+            <property name="width-request">300</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold 8"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">834</property>
+            <property name="y">605</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="labelSolucion">
+            <property name="width-request">100</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+          </object>
+          <packing>
+            <property name="x">824</property>
+            <property name="y">754</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

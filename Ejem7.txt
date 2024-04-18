@@ -1,0 +1,8 @@
+10 5
+cine 3 10 00
+teatro 3 6 00 
+estadio 5 20 00 
+mall 1 5 00 
+food 2 3 00
+
+

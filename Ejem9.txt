@@ -1,0 +1,14 @@
+20 13
+Cocina 4 1000 00
+Refrigerado 3 800 00
+Estufa 1 200 00
+Planca 4 100 00
+Lavadora 4 500 00
+Secadora 1 50 00
+Radio 2 10 00
+Llantas 1 25 00
+Aros 2 156 00
+Escritorio 8 100 00
+Mesa 3 1010 00
+Silla 1 230 00
+Sillon 4 500 00        

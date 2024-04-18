@@ -1,0 +1,14 @@
+20 13
+Cocina 4 1000 4
+Refrigerado 3 800 3
+Estufa 1 200 6 
+Planca 4 100 1 
+Lavadora 4 500 3
+Secadora 1 50 4
+Radio 2 10 3
+Llantas 1 25 2
+Aros 2 156 3
+Escritorio 8 100 1
+Mesa 3 1010 3
+Silla 1 230 4
+Sillon 4 500 6        

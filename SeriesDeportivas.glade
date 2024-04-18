@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="vSeriesDeportivas">
+    <property name="width-request">1920</property>
+    <property name="height-request">1080</property>
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkImage">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="pixbuf">Series4.jpg</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox" id="boxBotones">
+            <property name="width-request">600</property>
+            <property name="height-request">60</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkButton" id="botonGuardarArchivo">
+                <property name="label" translatable="yes">Guardar Archivo</property>
+                <property name="width-request">150</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFileChooserButton" id="botonAbrirArchivo">
+                <property name="width-request">150</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="title" translatable="yes"/>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="botonSalir">
+                <property name="label" translatable="yes">Salir</property>
+                <property name="width-request">150</property>
+                <property name="height-request">50</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">700</property>
+            <property name="y">937</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox" id="boxElegirOpciones">
+            <property name="width-request">400</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkComboBoxText" id="comboBoxMaxJuegos">
+                <property name="width-request">100</property>
+                <property name="height-request">0</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="active">0</property>
+                <items>
+                  <item translatable="yes">1</item>
+                  <item translatable="yes">3</item>
+                  <item translatable="yes">5</item>
+                  <item translatable="yes">7</item>
+                  <item translatable="yes">9</item>
+                  <item translatable="yes">11</item>
+                  <item translatable="yes">13</item>
+                  <item translatable="yes">15</item>
+                  <item translatable="yes">17</item>
+                  <item translatable="yes">19</item>
+                  <item translatable="yes">21</item>
+                  <item translatable="yes">23</item>
+                  <item translatable="yes">25</item>
+                  <item translatable="yes">27</item>
+                  <item translatable="yes">29</item>
+                </items>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkComboBoxText" id="comboBoxProbabilidadACasa">
+                <property name="width-request">150</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="active">0</property>
+                <items>
+                  <item translatable="yes">1</item>
+                  <item translatable="yes">2</item>
+                  <item translatable="yes">3</item>
+                  <item translatable="yes">4</item>
+                  <item translatable="yes">5</item>
+                  <item translatable="yes">6</item>
+                  <item translatable="yes">7</item>
+                  <item translatable="yes">8</item>
+                  <item translatable="yes">9</item>
+                  <item translatable="yes">10</item>
+                  <item translatable="yes">11</item>
+                  <item translatable="yes">12</item>
+                  <item translatable="yes">13</item>
+                  <item translatable="yes">14</item>
+                  <item translatable="yes">15</item>
+                  <item translatable="yes">16</item>
+                  <item translatable="yes">17</item>
+                  <item translatable="yes">18</item>
+                  <item translatable="yes">19</item>
+                  <item translatable="yes">20</item>
+                  <item translatable="yes">21</item>
+                  <item translatable="yes">22</item>
+                  <item translatable="yes">23</item>
+                  <item translatable="yes">24</item>
+                  <item translatable="yes">25</item>
+                  <item translatable="yes">26</item>
+                  <item translatable="yes">27</item>
+                  <item translatable="yes">28</item>
+                  <item translatable="yes">29</item>
+                  <item translatable="yes">30</item>
+                  <item translatable="yes">31</item>
+                  <item translatable="yes">32</item>
+                  <item translatable="yes">33</item>
+                  <item translatable="yes">34</item>
+                  <item translatable="yes">35</item>
+                  <item translatable="yes">36</item>
+                  <item translatable="yes">37</item>
+                  <item translatable="yes">38</item>
+                  <item translatable="yes">39</item>
+                  <item translatable="yes">40</item>
+                  <item translatable="yes">41</item>
+                  <item translatable="yes">42</item>
+                  <item translatable="yes">43</item>
+                  <item translatable="yes">44</item>
+                  <item translatable="yes">45</item>
+                  <item translatable="yes">46</item>
+                  <item translatable="yes">47</item>
+                  <item translatable="yes">48</item>
+                  <item translatable="yes">49</item>
+                  <item translatable="yes">50</item>
+                  <item translatable="yes">51</item>
+                  <item translatable="yes">52</item>
+                  <item translatable="yes">53</item>
+                  <item translatable="yes">54</item>
+                  <item translatable="yes">55</item>
+                  <item translatable="yes">56</item>
+                  <item translatable="yes">57</item>
+                  <item translatable="yes">58</item>
+                  <item translatable="yes">59</item>
+                  <item translatable="yes">60</item>
+                  <item translatable="yes">61</item>
+                  <item translatable="yes">62</item>
+                  <item translatable="yes">63</item>
+                  <item translatable="yes">64</item>
+                  <item translatable="yes">65</item>
+                  <item translatable="yes">66</item>
+                  <item translatable="yes">67</item>
+                  <item translatable="yes">68</item>
+                  <item translatable="yes">69</item>
+                  <item translatable="yes">70</item>
+                  <item translatable="yes">71</item>
+                  <item translatable="yes">72</item>
+                  <item translatable="yes">73</item>
+                  <item translatable="yes">74</item>
+                  <item translatable="yes">75</item>
+                  <item translatable="yes">76</item>
+                  <item translatable="yes">77</item>
+                  <item translatable="yes">78</item>
+                  <item translatable="yes">79</item>
+                  <item translatable="yes">80</item>
+                  <item translatable="yes">81</item>
+                  <item translatable="yes">82</item>
+                  <item translatable="yes">83</item>
+                  <item translatable="yes">84</item>
+                  <item translatable="yes">85</item>
+                  <item translatable="yes">86</item>
+                  <item translatable="yes">87</item>
+                  <item translatable="yes">88</item>
+                  <item translatable="yes">89</item>
+                  <item translatable="yes">90</item>
+                  <item translatable="yes">91</item>
+                  <item translatable="yes">92</item>
+                  <item translatable="yes">93</item>
+                  <item translatable="yes">94</item>
+                  <item translatable="yes">95</item>
+                  <item translatable="yes">96</item>
+                  <item translatable="yes">97</item>
+                  <item translatable="yes">98</item>
+                  <item translatable="yes">99</item>
+                  <item translatable="yes">100</item>
+                </items>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkComboBoxText" id="comboBoxtProbabilidadAVisita">
+                <property name="width-request">150</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="active">0</property>
+                <items>
+                  <item translatable="yes">1</item>
+                  <item translatable="yes">2</item>
+                  <item translatable="yes">3</item>
+                  <item translatable="yes">4</item>
+                  <item translatable="yes">5</item>
+                  <item translatable="yes">6</item>
+                  <item translatable="yes">7</item>
+                  <item translatable="yes">8</item>
+                  <item translatable="yes">9</item>
+                  <item translatable="yes">10</item>
+                  <item translatable="yes">11</item>
+                  <item translatable="yes">12</item>
+                  <item translatable="yes">13</item>
+                  <item translatable="yes">14</item>
+                  <item translatable="yes">15</item>
+                  <item translatable="yes">16</item>
+                  <item translatable="yes">17</item>
+                  <item translatable="yes">18</item>
+                  <item translatable="yes">19</item>
+                  <item translatable="yes">20</item>
+                  <item translatable="yes">21</item>
+                  <item translatable="yes">22</item>
+                  <item translatable="yes">23</item>
+                  <item translatable="yes">24</item>
+                  <item translatable="yes">25</item>
+                  <item translatable="yes">26</item>
+                  <item translatable="yes">27</item>
+                  <item translatable="yes">28</item>
+                  <item translatable="yes">29</item>
+                  <item translatable="yes">30</item>
+                  <item translatable="yes">31</item>
+                  <item translatable="yes">32</item>
+                  <item translatable="yes">33</item>
+                  <item translatable="yes">34</item>
+                  <item translatable="yes">35</item>
+                  <item translatable="yes">36</item>
+                  <item translatable="yes">37</item>
+                  <item translatable="yes">38</item>
+                  <item translatable="yes">39</item>
+                  <item translatable="yes">40</item>
+                  <item translatable="yes">41</item>
+                  <item translatable="yes">42</item>
+                  <item translatable="yes">43</item>
+                  <item translatable="yes">44</item>
+                  <item translatable="yes">45</item>
+                  <item translatable="yes">46</item>
+                  <item translatable="yes">47</item>
+                  <item translatable="yes">48</item>
+                  <item translatable="yes">49</item>
+                  <item translatable="yes">50</item>
+                  <item translatable="yes">51</item>
+                  <item translatable="yes">52</item>
+                  <item translatable="yes">53</item>
+                  <item translatable="yes">54</item>
+                  <item translatable="yes">55</item>
+                  <item translatable="yes">56</item>
+                  <item translatable="yes">57</item>
+                  <item translatable="yes">58</item>
+                  <item translatable="yes">59</item>
+                  <item translatable="yes">60</item>
+                  <item translatable="yes">61</item>
+                  <item translatable="yes">62</item>
+                  <item translatable="yes">63</item>
+                  <item translatable="yes">64</item>
+                  <item translatable="yes">65</item>
+                  <item translatable="yes">66</item>
+                  <item translatable="yes">67</item>
+                  <item translatable="yes">68</item>
+                  <item translatable="yes">69</item>
+                  <item translatable="yes">70</item>
+                  <item translatable="yes">71</item>
+                  <item translatable="yes">72</item>
+                  <item translatable="yes">73</item>
+                  <item translatable="yes">74</item>
+                  <item translatable="yes">75</item>
+                  <item translatable="yes">76</item>
+                  <item translatable="yes">77</item>
+                  <item translatable="yes">78</item>
+                  <item translatable="yes">79</item>
+                  <item translatable="yes">80</item>
+                  <item translatable="yes">81</item>
+                  <item translatable="yes">82</item>
+                  <item translatable="yes">83</item>
+                  <item translatable="yes">84</item>
+                  <item translatable="yes">85</item>
+                  <item translatable="yes">86</item>
+                  <item translatable="yes">87</item>
+                  <item translatable="yes">88</item>
+                  <item translatable="yes">89</item>
+                  <item translatable="yes">90</item>
+                  <item translatable="yes">91</item>
+                  <item translatable="yes">92</item>
+                  <item translatable="yes">93</item>
+                  <item translatable="yes">94</item>
+                  <item translatable="yes">95</item>
+                  <item translatable="yes">96</item>
+                  <item translatable="yes">97</item>
+                  <item translatable="yes">98</item>
+                  <item translatable="yes">99</item>
+                  <item translatable="yes">100</item>
+                </items>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="botonGenerar">
+                <property name="label" translatable="yes">Generar</property>
+                <property name="width-request">100</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">3</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">686</property>
+            <property name="y">58</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox" id="boxMatrizLugares">
+            <property name="width-request">700</property>
+            <property name="height-request">300</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkBox" id="boxLugares1">
+                <property name="width-request">700</property>
+                <property name="height-request">300</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkBox" id="boxLugares2">
+                    <property name="width-request">700</property>
+                    <property name="height-request">300</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">68</property>
+            <property name="y">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="labelCantidadJuegos">
+            <property name="width-request">100</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Cantidad
+  juegos</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold 10"/>
+              <attribute name="foreground" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">683</property>
+            <property name="y">131</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkAccelLabel" id="labelProbabilidadCA">
+            <property name="width-request">100</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Probabilidad Casa A</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold 9"/>
+              <attribute name="foreground" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">789</property>
+            <property name="y">134</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="labelProbabilidadVA">
+            <property name="width-request">100</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Probabilidad VIsita A</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold 9"/>
+              <attribute name="foreground" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">939</property>
+            <property name="y">134</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox" id="boxMatrizPrincipal">
+            <property name="width-request">750</property>
+            <property name="height-request">300</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkBox" id="boxPrincipal1">
+                <property name="width-request">750</property>
+                <property name="height-request">300</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkBox" id="boxPrincipal2">
+                    <property name="width-request">750</property>
+                    <property name="height-request">300</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">1125</property>
+            <property name="y">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox" id="boxOrdenJuegos">
+            <property name="width-request">300</property>
+            <property name="height-request">200</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkBox" id="boxOrden1">
+                <property name="width-request">300</property>
+                <property name="height-request">200</property>
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkBox" id="boxOrden2">
+                    <property name="width-request">300</property>
+                    <property name="height-request">200</property>
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <child>
+                      <placeholder/>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">786</property>
+            <property name="y">101</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="LabelMejorDe">
+            <property name="width-request">100</property>
+            <property name="height-request">50</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Mejor de </property>
+            <attributes>
+              <attribute name="font-desc" value="Sans 10"/>
+              <attribute name="foreground" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">837</property>
+            <property name="y">161</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="botonCalcular">
+            <property name="label" translatable="yes">Calcular</property>
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">967</property>
+            <property name="y">198</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="inputCantMejores">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+          </object>
+          <packing>
+            <property name="x">800</property>
+            <property name="y">198</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="labelSolucion">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold 10"/>
+              <attribute name="foreground" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">35</property>
+            <property name="y">900</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

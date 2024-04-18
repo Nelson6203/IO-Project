@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="ventanaP">
+    <property name="width-request">1280</property>
+    <property name="height-request">720</property>
+    <property name="can-focus">False</property>
+    <property name="window-position">center-always</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkImage">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="pixbuf">fondo.avif</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">Problema de la Mochila</property>
+            <property name="width-request">175</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="tooltip-text" translatable="yes">El problema de la mochila muestra una situación donde hay que llenar una mochila, incapaz de soportar más de un peso determinado, que tiene la opcion de llevar diferentes objetos dependiendo de su peso y valor de los mismos, al igual de "x" cantidad de copias de ese objeto. Los objetos colocados en la mochila deben maximizar el valor total sin exceder el peso máximo. </property>
+            <signal name="clicked" handler="on_button1_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">700</property>
+            <property name="y">250</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Proyecto 0 Investigación de Operaciones</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold Italic 36"/>
+              <attribute name="style" value="normal"/>
+              <attribute name="foreground" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">104</property>
+            <property name="y">50</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button6">
+            <property name="label" translatable="yes">Arboles BInarios</property>
+            <property name="width-request">175</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="tooltip-text" translatable="yes">Los árboles óptimos de búsqueda es un algoritmo que se utiliza en programación dinámica que se basa en buscar la optimización en la estructura del árbol de búsqueda, lo cual permite realizar un tiempo de búsqueda mínimo. Donde se descompone cada problema en subproblemas, donde toma cada key y busca cuál key va en la parte de más arriba y cuales son sus nodos derechos e izquierdos. El problema busca que el usuario ingrese el key con su nombre y valor, y el programa acomoda por medio de una tabla cada probabilidad</property>
+            <signal name="clicked" handler="on_button6_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">500</property>
+            <property name="y">450</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button2">
+            <property name="label" translatable="yes">Reemplazo de Equipos</property>
+            <property name="width-request">175</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="tooltip-text" translatable="yes">El algoritmo de reemplazo de equipos es un algoritmo que tiene aplicación en programación dinámica, dicho algoritmo busca calcular cómo un objeto va perdiendo su valor dependiendo de los años que pasen y cuanto va valiendo por cada año de vida que este vaya teniendo. Es un algoritmo que tiene aplicación en la vida real, ya que si uno quiere vender un objeto, ya sea una bicicleta, una computadora, etc; este algoritmo le haría saber cuándo es lo menos que pierde si lo quiere revender dependiendo de los años pasados y el valor inicial, al final se va viendo cuáles son las soluciones óptimas que este tiene.</property>
+            <signal name="clicked" handler="on_button2_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">700</property>
+            <property name="y">350</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button3">
+            <property name="label" translatable="yes">Salir del Programa</property>
+            <property name="width-request">175</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="tooltip-text" translatable="yes">Salir</property>
+            <signal name="clicked" handler="on_button3_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">700</property>
+            <property name="y">450</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button4">
+            <property name="label" translatable="yes">Rutas más cortas</property>
+            <property name="width-request">175</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="tooltip-text" translatable="yes">Algoritmo Floyd: Este algoritmo fue creado por Robert W. Floyd(1936 - 2001). Este algoritmo se encarga de comparar los caminos entre nodos para encontrar las rutas óptimos entre estos, brindando la solución óptima a problemas de encontrar las mejoras rutas. 
+Este algoritmo está compuesto por tabla D(k) y por una tabla P(todos sus valores iniciales son 0)la cual contendra la solución óptima al problema. Cada cambio en D(k) se registrar "k" en la tabla P[i][j]</property>
+            <signal name="clicked" handler="on_button4_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">500</property>
+            <property name="y">250</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button5">
+            <property name="label" translatable="yes">Series Deportivas</property>
+            <property name="width-request">175</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="tooltip-text" translatable="yes">El algoritmo de Series Deportivas, es un algoritmo que busca calcular la probabilidad que tiene un equipo de ganar una serie. Serie donde se define a cuantos partidos se gana. En las series deportivas entran factores como las ventajas que se tiene ya siendo local y/o visitante. Ademas los partidos no son estrictamente 1 de visita y otro de local, sino que puede ser 3 local y 1 visita, etc. </property>
+            <signal name="clicked" handler="on_button5_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">500</property>
+            <property name="y">350</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label7">
+            <property name="width-request">56</property>
+            <property name="height-request">49</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Esteban Villavicencio, Nelson Alvarado</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold Italic 20"/>
+              <attribute name="style" value="normal"/>
+              <attribute name="foreground" value="#ffffffffffff"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">2</property>
+            <property name="y">671</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

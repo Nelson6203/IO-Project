@@ -1,0 +1,13 @@
+12
+keyG	12	
+keyB	50	
+keyD	9	
+keyC	11	
+keyE	7	
+keyF	54	
+keyA	30	
+keyH	8	
+keyI	98	
+keyJ	66	
+keyK	44	
+keyL	33	

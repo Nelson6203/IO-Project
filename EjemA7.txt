@@ -1,0 +1,10 @@
+9
+Carpenter	5	
+Cash	7	
+Cobain	1	
+Harrison	35	
+Hendrix	9	
+Joplin	23	
+Lennon	15	
+Morrison	4	
+Presley	1	

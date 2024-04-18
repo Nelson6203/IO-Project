@@ -1,0 +1,7 @@
+3 6
+calcetines 5 200 99
+agua 11 33 99
+leche 2 400 99
+cereal 3 600 99
+cocacola 2 300 99
+yogurt 1 150 99
